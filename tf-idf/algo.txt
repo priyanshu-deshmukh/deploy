@@ -1,0 +1,15 @@
+INPUT: List of documents
+
+Step 1: Preprocess each document (tokenize, remove stopwords, etc.)
+
+Step 2: For each document:
+    For each word in document:
+        Count frequency of word → Term Frequency (TF)
+
+Step 3: For each word in the whole corpus:
+    Count how many documents contain the word
+    Compute IDF = log(total_documents / documents_with_word)
+
+Step 4: Multiply TF and IDF for each word in each document
+
+OUTPUT: Matrix of TF-IDF values (word importance per document)

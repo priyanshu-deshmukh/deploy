@@ -1,0 +1,7 @@
+DFS(Graph, start_node):
+    mark start_node as visited
+    print(start_node)
+
+    for each neighbor of start_node:
+        if neighbor is not visited:
+            DFS(Graph, neighbor)

@@ -1,0 +1,37 @@
+6. Feature Extraction & Analysis on Processed Text
+🔍 Quick Info:
+Feature Extraction: Converting raw text into a structured format that machine learning models can understand.
+
+Common Techniques:
+
+Bag of Words (BoW)
+
+TF-IDF
+
+Word Embeddings (Word2Vec, GloVe)
+
+Part-of-Speech (POS) tagging
+
+Analysis: Checking distributions, correlations, and feature importance.
+
+📘 Pseudocode:
+text
+Copy
+Edit
+INPUT: Collection of text documents
+
+Step 1: Preprocess the text
+    - Tokenize
+    - Remove stopwords
+    - Apply stemming or lemmatization
+
+Step 2: Convert text into numerical features
+    - Choose feature extraction method (e.g., BoW or TF-IDF)
+    - Apply method to the entire corpus to create feature vectors
+
+Step 3: Analyze the extracted features
+    - Check frequency of most common words
+    - Use visualizations (e.g., word clouds, bar plots)
+    - Examine vector shape, sparsity, etc.
+
+OUTPUT: Structured feature matrix usable for ML models

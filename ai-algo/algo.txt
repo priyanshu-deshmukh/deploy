@@ -1,0 +1,18 @@
+INPUT: Labeled dataset of text reviews (texts + sentiment labels)
+
+Step 1: Define the dataset
+    - Create a list of text reviews
+    - Assign each review a label ('pos' or 'neg')
+
+Step 2: Create a machine learning pipeline
+    - Use a TF-IDF Vectorizer to convert text to numeric features
+    - Use a Logistic Regression model for classification
+
+Step 3: Train the pipeline
+    - Fit the model on the training data (texts and their labels)
+
+Step 4: Make predictions
+    - Take a new test sentence
+    - Use the trained model to predict its sentiment
+
+OUTPUT: Predicted sentiment label for the test input

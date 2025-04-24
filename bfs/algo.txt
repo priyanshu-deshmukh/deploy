@@ -1,0 +1,12 @@
+BFS(Graph, start_node):
+    create a queue Q
+    mark start_node as visited and enqueue it into Q
+
+    while Q is not empty:
+        current_node = Q.dequeue()
+        print(current_node)
+
+        for each neighbor of current_node:
+            if neighbor is not visited:
+                mark neighbor as visited
+                enqueue neighbor into Q

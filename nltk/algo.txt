@@ -1,0 +1,17 @@
+INPUT: Raw text document
+
+Step 1: Tokenize the text into words
+    tokens = split text into individual words
+
+Step 2: Load a list of stopwords
+    stopwords = common words like "is", "the", etc.
+
+Step 3: Filter out stopwords
+    filtered_tokens = tokens excluding stopwords
+
+Step 4: Apply stemming
+    for each word in filtered_tokens:
+        stemmed_word = get root form of word
+        add to final list
+
+OUTPUT: List of stemmed words after preprocessing

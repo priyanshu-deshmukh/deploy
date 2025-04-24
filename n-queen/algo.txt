@@ -1,0 +1,15 @@
+solveNQueens(board, row):
+    if row == N:
+        print(board)  // solution found
+        return
+
+    for col in 0 to N-1:
+        if isSafe(board, row, col):
+            place queen at (row, col)
+            solveNQueens(board, row + 1)
+            remove queen from (row, col) // backtrack
+
+isSafe(board, row, col):
+    check column above
+    check upper-left diagonal
+    check upper-right diagonal

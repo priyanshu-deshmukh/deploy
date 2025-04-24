@@ -1,0 +1,29 @@
+Step 1: Initialize a 3x3 game board with empty values (spaces)
+
+Step 2: Define a function to print the current board:
+    Print each row with separators (|) and lines (---) between rows
+
+Step 3: Define a function to check for a winning condition:
+    Define all winning combinations (rows, columns, diagonals)
+    For each winning combination:
+        If all three positions have the same player's mark:
+            Return True (player wins)
+    Return False (no win found)
+
+Step 4: Define the main game loop:
+    Set current_player to "X"
+    Repeat for maximum of 9 turns:
+        Print the board
+        Ask player to choose a position (1-9)
+        If chosen position is already filled:
+            Show error and let them try again (continue loop)
+        Place player's mark at chosen position
+        If current_player has won:
+            Print board and declare winner
+            End game
+        Switch current_player to the other player (X ↔ O)
+
+    After all moves:
+        If no winner, declare a tie
+
+Step 5: Start the game by calling the main game loop
