@@ -1,0 +1,1 @@
+NLTK, or the Natural Language Toolkit, is a popular open-source Python library used for natural language processing (NLP) tasks. It provides a wide range of tools and resources for working with human language data, including text analysis, tokenization, stemming, tagging, and more. NLTK is widely used by researchers, data scientists, and developers for various NLP applications. 
